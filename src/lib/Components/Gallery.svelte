@@ -1,11 +1,9 @@
 <script lang="ts">
-    import { base } from '$app/paths';
     import Card from './Card.svelte';
-    import { galleryData } from '../../../static/config/gallery-data.ts';
+
+    let { galleryData } = $props();
 
     let colLength = Math.round(galleryData.length / 3);
-    console.log(colLength);
-
 </script>
 
 <main>
@@ -31,7 +29,7 @@
         <!-- Column 3 -->
         <div class="flow">
             {#each galleryData as {imgSrc, alt, caption}, i}
-            {#if i >= colLength*2 && i < colLength*3}
+            {#if i >= colLength*2}
                 <Card imgSrc={imgSrc} alt={alt} caption={caption}></Card>
             {/if}
             {/each}
@@ -44,7 +42,7 @@
 
     main {
         padding: 1em 0;
-        background: #ffffff;
+        background: transparent;
     }
 
     .masonry {
