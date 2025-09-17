@@ -1,3 +1,5 @@
+import { base } from '$app/paths';
+
 export const foodGalleryData: {
     imgSrc: string;
     alt: string;
@@ -5,177 +7,177 @@ export const foodGalleryData: {
     // date: ;
 }[] = [
 {
-    imgSrc: "static/images/food/SweetSalmonBowl.jpeg",
+    imgSrc: `${base}/assets/images/food/SweetSalmonBowl.jpeg`,
     alt: "",
     caption: ""
 },
 {
-    imgSrc: "static/images/food/ChickenTortillaSoup.jpeg",
+    imgSrc: `${base}/assets/images/food/ChickenTortillaSoup.jpeg`,
     alt: "",
     caption: ""
 },
 {
-    imgSrc: "static/images/food/ChineseChickenWings.jpeg",
+    imgSrc: `${base}/assets/images/food/ChineseChickenWings.jpeg`,
     alt: "",
     caption: ""
 },
 {
-    imgSrc: "static/images/food/GreekYogurtEggs.jpeg",
+    imgSrc: `${base}/assets/images/food/GreekYogurtEggs.jpeg`,
     alt: "",
     caption: ""
 },
 {
-    imgSrc: "static/images/food/MorocconTagine.jpeg",
+    imgSrc: `${base}/assets/images/food/MorocconTagine.jpeg`,
     alt: "",
     caption: ""
 },
 {
-    imgSrc: "static/images/food/MusclePasta.jpeg",
+    imgSrc: `${base}/assets/images/food/MusclePasta.jpeg`,
     alt: "",
     caption: ""
 },
 {
-    imgSrc: "static/images/food/Oysters.jpeg",
+    imgSrc: `${base}/assets/images/food/Oysters.jpeg`,
     alt: "",
     caption: ""
 },
 {
-    imgSrc: "static/images/food/PadKraPow.jpeg",
+    imgSrc: `${base}/assets/images/food/PadKraPow.jpeg`,
     alt: "",
     caption: ""
 },
 {
-    imgSrc: "static/images/food/PadSeeEw.jpeg",
+    imgSrc: `${base}/assets/images/food/PadSeeEw.jpeg`,
     alt: "",
     caption: ""
 },
 {
-    imgSrc: "static/images/food/RicottaSquash.jpeg",
+    imgSrc: `${base}/assets/images/food/RicottaSquash.jpeg`,
     alt: "",
     caption: ""
 },
 {
-    imgSrc: "static/images/food/BreakfastSpread.jpeg",
+    imgSrc: `${base}/assets/images/food/BreakfastSpread.jpeg`,
     alt: "",
     caption: ""
 },
 {
-    imgSrc: "static/images/food/ChickenThighs.jpeg",
+    imgSrc: `${base}/assets/images/food/ChickenThighs.jpeg`,
     alt: "",
     caption: ""
 },
 {
-    imgSrc: "static/images/food/7SalmonLemonPasta.jpeg",
+    imgSrc: `${base}/assets/images/food/7SalmonLemonPasta.jpeg`,
     alt: "",
     caption: ""
 },
 {
-    imgSrc: "static/images/food/10Fish.jpeg",
+    imgSrc: `${base}/assets/images/food/10Fish.jpeg`,
     alt: "",
     caption: ""
 },
 {
-    imgSrc: "static/images/food/SardinePasta.jpeg",
+    imgSrc: `${base}/assets/images/food/SardinePasta.jpeg`,
     alt: "",
     caption: ""
 },
 {
-    imgSrc: "static/images/food/Shakshuka.jpeg",
+    imgSrc: `${base}/assets/images/food/Shakshuka.jpeg`,
     alt: "",
     caption: ""
 },
 {
-    imgSrc: "static/images/food/SpamEggAvoBowl.jpeg",
+    imgSrc: `${base}/assets/images/food/SpamEggAvoBowl.jpeg`,
     alt: "",
     caption: ""
 },
 {
-    imgSrc: "static/images/food/SpinachPasta.jpeg",
+    imgSrc: `${base}/assets/images/food/SpinachPasta.jpeg`,
     alt: "",
     caption: ""
 },
 {
-    imgSrc: "static/images/food/Sushi.jpeg",
+    imgSrc: `${base}/assets/images/food/Sushi.jpeg`,
     alt: "",
     caption: ""
 },
 {
-    imgSrc: "static/images/food/SweetPotatoeChickpea.jpeg",
+    imgSrc: `${base}/assets/images/food/SweetPotatoeChickpea.jpeg`,
     alt: "",
     caption: ""
 },
 {
-    imgSrc: "static/images/food/ThanksgivingSpread1.jpeg",
+    imgSrc: `${base}/assets/images/food/ThanksgivingSpread1.jpeg`,
     alt: "",
     caption: ""
 },
 {
-    imgSrc: "static/images/food/BeefBourguignon.jpeg",
+    imgSrc: `${base}/assets/images/food/BeefBourguignon.jpeg`,
     alt: "Beef Bourguignon in a bowl on table",
     caption: "Julia Child's Beef Bourguignon"
 },
 {
-    imgSrc: "static/images/food/ThanksgivingSpread2.jpeg",
+    imgSrc: `${base}/assets/images/food/ThanksgivingSpread2.jpeg`,
     alt: "",
     caption: ""
 },
 {
-    imgSrc: "static/images/food/Udon.jpeg",
+    imgSrc: `${base}/assets/images/food/Udon.jpeg`,
     alt: "",
     caption: ""
 },
 {
-    imgSrc: "static/images/food/VietnameseVermicelli.jpeg",
+    imgSrc: `${base}/assets/images/food/VietnameseVermicelli.jpeg`,
     alt: "",
     caption: ""
 },
 {
-    imgSrc: "static/images/food/Zaalouk.jpeg",
+    imgSrc: `${base}/assets/images/food/Zaalouk.jpeg`,
     alt: "",
     caption: ""
 },
 {
-    imgSrc: "static/images/food/ZuchinniPancakes.jpeg",
+    imgSrc: `${base}/assets/images/food/ZuchinniPancakes.jpeg`,
     alt: "",
     caption: ""
 },
 {
-    imgSrc: "static/images/food/1PersianChicken.jpeg",
+    imgSrc: `${base}/assets/images/food/1PersianChicken.jpeg`,
     alt: "",
     caption: ""
 },
 {
-    imgSrc: "static/images/food/2TaiwaneseChicken.jpeg",
+    imgSrc: `${base}/assets/images/food/2TaiwaneseChicken.jpeg`,
     alt: "",
     caption: ""
 },
 {
-    imgSrc: "static/images/food/3Donuts.jpeg",
+    imgSrc: `${base}/assets/images/food/3Donuts.jpeg`,
     alt: "",
     caption: ""
 },
 {
-    imgSrc: "static/images/food/4BreakfastTaco.jpeg",
+    imgSrc: `${base}/assets/images/food/4BreakfastTaco.jpeg`,
     alt: "",
     caption: ""
 },
 {
-    imgSrc: "static/images/food/5KimchiFriedRice.jpeg",
+    imgSrc: `${base}/assets/images/food/5KimchiFriedRice.jpeg`,
     alt: "",
     caption: ""
 },
 {
-    imgSrc: "static/images/food/6Pasta.jpeg",
+    imgSrc: `${base}/assets/images/food/6Pasta.jpeg`,
     alt: "",
     caption: ""
 },
 {
-    imgSrc: "static/images/food/8TomatoSoup.jpeg",
+    imgSrc: `${base}/assets/images/food/8TomatoSoup.jpeg`,
     alt: "",
     caption: ""
 },
 {
-    imgSrc: "static/images/food/9Caprese.jpeg",
+    imgSrc: `${base}/assets/images/food/9Caprese.jpeg`,
     alt: "",
     caption: ""
 },
@@ -188,82 +190,82 @@ export const filmGalleryData: {
     // date: ;
 }[] = [
 {
-    imgSrc: "static/images/film/1.jpg",
+    imgSrc: `${base}/assets/images/film/1.jpg`,
     alt: "",
     caption: ""
 },
 {
-    imgSrc: "static/images/film/2.jpg",
+    imgSrc: `${base}/assets/images/film/2.jpg`,
     alt: "",
     caption: ""
 },
 {
-    imgSrc: "static/images/film/3.jpg",
+    imgSrc: `${base}/assets/images/film/3.jpg`,
     alt: "",
     caption: ""
 },
 {
-    imgSrc: "static/images/film/8.jpg",
+    imgSrc: `${base}/assets/images/film/8.JPG`,
     alt: "",
     caption: ""
 },
 {
-    imgSrc: "static/images/film/6.jpg",
+    imgSrc: `${base}/assets/images/film/6.jpg`,
     alt: "",
     caption: ""
 },
 {
-    imgSrc: "static/images/film/4.jpg",
+    imgSrc: `${base}/assets/images/film/4.jpg`,
     alt: "",
     caption: ""
 },
 {
-    imgSrc: "static/images/film/7.jpg",
+    imgSrc: `${base}/assets/images/film/7.jpg`,
     alt: "",
     caption: ""
 },
 {
-    imgSrc: "static/images/film/15.jpg",
+    imgSrc: `${base}/assets/images/film/15.JPG`,
     alt: "",
     caption: ""
 },
 {
-    imgSrc: "static/images/film/9.jpg",
+    imgSrc: `${base}/assets/images/film/9.JPG`,
     alt: "",
     caption: ""
 },
 {
-    imgSrc: "static/images/film/18.jpg",
+    imgSrc: `${base}/assets/images/film/18.jpg`,
     alt: "",
     caption: ""
 },
 {
-    imgSrc: "static/images/film/12.jpg",
+    imgSrc: `${base}/assets/images/film/12.JPG`,
     alt: "",
     caption: ""
 },
 {
-    imgSrc: "static/images/film/5.jpg",
+    imgSrc: `${base}/assets/images/film/5.jpg`,
     alt: "",
     caption: ""
 },
 {
-    imgSrc: "static/images/film/11.jpg",
+    imgSrc: `${base}/assets/images/film/11.jpg`,
     alt: "",
     caption: ""
 },
 {
-    imgSrc: "static/images/film/16.jpg",
+    imgSrc: `${base}/assets/images/film/16.JPG`,
     alt: "",
     caption: ""
 },
 {
-    imgSrc: "static/images/film/14.jpg",
+    imgSrc: `${base}/assets/images/film/14.JPG`,
     alt: "",
     caption: ""
 },
 {
-    imgSrc: "static/images/film/10.jpg",
+    imgSrc: `${base}/assets/images/film/10.JPG`,
     alt: "",
     caption: ""
 },
@@ -277,27 +279,27 @@ export const craftGalleryData: {
     // date: ;
 }[] = [
 {
-    imgSrc: "static/images/crafts/saturn.jpeg",
+    imgSrc: `${base}/assets/images/crafts/saturn.jpeg`,
     alt: "",
     caption: ""
 },
 {
-    imgSrc: "static/images/crafts/roses.jpeg",
+    imgSrc: `${base}/assets/images/crafts/roses.jpeg`,
     alt: "",
     caption: ""
 },
 {
-    imgSrc: "static/images/crafts/painting.jpeg",
+    imgSrc: `${base}/assets/images/crafts/painting.jpeg`,
     alt: "",
     caption: ""
 },
 {
-    imgSrc: "static/images/crafts/skirtshirt.jpeg",
+    imgSrc: `${base}/assets/images/crafts/skirtshirt.jpeg`,
     alt: "",
     caption: ""
 },
 {
-    imgSrc: "static/images/crafts/fishies.jpeg",
+    imgSrc: `${base}/assets/images/crafts/fishies.jpeg`,
     alt: "",
     caption: ""
 },
