@@ -29,7 +29,8 @@
 
 <style>
 :root {
-    --selected: black;
+    --primary: white;
+    --primary-contrast: black;
 }
 
   .button-group {
@@ -42,21 +43,22 @@
   button {
     font-family: "Roboto Mono";
     padding: 10px 15px;
-    border: 1px solid var(--selected);
+    border: 1px solid var(--primary-contrast);
     border-radius: 5px;
     background-color: transparent;
+    color: var(--primary-contrast);
     cursor: pointer;
   }
 
   button.active {
-    background-color: var(--selected);
-    color: white;
-    border-color: var(--selected);
+    background-color: var(--primary-contrast);
+    color: var(--primary);
+    border-color: var(--primary-contrast);
   }
 
   button:hover {
-    background-color: var(--selected);
-    color: white;
-    border-color: var(--selected);
+    background-color: var(--primary-contrast);
+    color: var(--primary);
+    border-color: var(--primary-contrast);
   }
 </style>
